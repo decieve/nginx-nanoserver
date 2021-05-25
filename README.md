@@ -2,6 +2,8 @@
 This dockerfile uses native 64 bit version built manually and installs it to [microsoft/nanoserver](https://hub.docker.com/r/microsoft/nanoserver/) based container.
 Official version of nginx cannot be used because it is 32 bit version of binary which is not supported on nano server.
 
+I've added a nginx.zip built manually in the repo so you can test it
+
 ##Compile from source code
 To achieve the native 64bit nginx i used this [guide](https://ywjheart.wordpress.com/2018/12/05/brief-steps-of-building-nginx-64bit-on-windows/) (bit suspicious but it's a good guide , cheers for this guy/gal) mixed with [this one](https://nginx.org/en/docs/howto_build_on_win32.html) from nginx official site.
 
